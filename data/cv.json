@@ -1,0 +1,220 @@
+{
+  "personal": {
+    "name": "Tharan Suresh",
+    "title": "Graduate Research Assistant",
+    "email": "tharan.suresh@utexas.edu",
+    "bio": "I am a Ph.D. candidate in Movement & Cognitive Rehabilitation Science at The University of Texas at Austin, investigating the neurophysiological mechanisms underlying human motor learning and control. My research focuses on understanding how brain rhythms, particularly sensorimotor mu oscillations, influence our ability to learn new movements and retain them.",
+    "photo": "images/profile.jpeg",
+    "location": "Austin, TX"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/in/tharan-suresh",
+    "twitter": "https://twitter.com/tharan10",
+    "bluesky": "https://bsky.app/profile/tharansuresh.bsky.social",
+    "scholar": "https://scholar.google.com/citations?user=JNMYJLEAAAAJ&hl=en&oi=ao",
+    "github": "https://github.com/tharan010"
+  },
+  "news": [
+    {
+      "date": "July 2025",
+      "description": "Successfully proposed my dissertation on sensorimotor mu phase-dependent mechanisms of motor learning."
+    },
+    {
+      "date": "May 2025",
+      "description": "Presented research on motor sequence learning at the Brainbox Initiative Webinar."
+    },
+    {
+      "date": "January 2024",
+      "description": "Gave a talk on 'The Human Machine: Discovering the wonders of how we move' at Morton Elementary School, Marysville, MI."
+    },
+    {
+      "date": "September 2023",
+      "description": "Presented on mechanisms of human motor learning and memory at the 2nd ReproRehab Research Summit, USC."
+    },
+    {
+      "date": "August 2023",
+      "description": "Advanced to Ph.D. candidacy at The University of Texas at Austin."
+    },
+    {
+      "date": "January 2023",
+      "description": "Delivered talk on 'The magic of movement and memories' at Science National Honor Society, Houston."
+    },
+    {
+      "date": "December 2022",
+      "description": "Presented research on practice-dependent corticospinal plasticity at Non-invasive Brain Stimulation conference, Gandhinagar."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. in Movement & Cognitive Rehabilitation Science",
+      "institution": "Department of Kinesiology & Health Education, The University of Texas at Austin",
+      "year": "2021-2026 (expected)",
+      "description": "GPA: 3.97/4.0"
+    },
+    {
+      "degree": "M.S. in Cognitive Science",
+      "institution": "Center for Cognitive & Brain Sciences, Indian Institute of Technology, Gandhinagar",
+      "year": "2019-2021",
+      "description": "CGPA: 9.28/10"
+    },
+    {
+      "degree": "B.S. in Clinical Neurophysiology",
+      "institution": "Department of Neurological Sciences, Christian Medical College, Vellore",
+      "year": "2013-2017",
+      "description": "Valedictorian"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Graduate Research Assistant",
+      "company": "The University of Texas at Austin",
+      "period": "2023-present",
+      "description": "Investigated the neurophysiological mechanisms of human motor learning using EEG and TMS techniques"
+    },
+    {
+      "title": "Graduate Teaching Assistant",
+      "company": "The University of Texas at Austin",
+      "period": "2021-2023",
+      "description": "Mentored undergraudatre students and led discussion sessions for Neuromuscular Control course"
+    },
+    {
+      "title": "Graduate Assistant",
+      "company": "Indian Institute of Technology, Gandhinagar",
+      "period": "2019-2021",
+      "description": "Conducted research on motor memory reconsolidation and taught scientific writing for undergraduates"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Motor sequence learning elicits mu peak-specific corticospinal plasticity",
+      "authors": "Tharan Suresh, Fumiaki Iwane, Minsu Zhang, Margaret McElmurry, Muskan Manesiya, Michael V. Freedberg, and Sara J. Hussain",
+      "venue": "Journal of Neurophysiology",
+      "year": "2025",
+      "link": "https://doi.org/10.1152/jn.00579.2024"
+    },
+    {
+      "title": "Re-evaluating the contribution of sensorimotor mu rhythm phase and power to human corticospinal output: A replication study",
+      "authors": "Tharan Suresh & Sara J Hussain",
+      "venue": "Brain Stimulation",
+      "year": "2023",
+      "link": "https://doi.org/10.1016/j.brs.2023.05.022"
+    }
+  ],
+  "research": [
+    {
+      "area": "Motor learning",
+      "description": "Investigating how the brain learns new movement patterns and the role of neural oscillations in motor skill acquisition"
+    },
+    {
+      "area": "Motor memory",
+      "description": "Understanding how motor memories are formed, consolidated, and how they can be disrupted or enhanced through interventions"
+    },
+    {
+      "area": "Brain stimulation",
+      "description": "Exploring the effects of transcranial magnetic stimulation on motor learning and corticospinal plasticity"
+    }
+  ],
+  "skills": [
+    "Python", "MATLAB", "R", "EEG Analysis", "TMS", "Statistical Analysis", "Data Visualization", "Research Design", "Scientific Writing"
+  ],
+  "awards": [
+    {
+      "title": "Continuing Fellowship",
+      "organization": "Graduate School, The University of Texas at Austin",
+      "year": "2024"
+    },
+    {
+      "title": "Travel Award",
+      "organization": "Society for Neuroscience",
+      "year": "2023"
+    }
+  ],
+  "service": [
+    {
+      "category": "Peer Review",
+      "items": [
+        {
+          "title": "Journal of Neurophysiology",
+          "description": "Reviewer for manuscripts on motor learning and neuroplasticity",
+          "period": "2024-present"
+        },
+        {
+          "title": "Brain Stimulation",
+          "description": "Ad-hoc reviewer for studies on brain stimulation and motor control",
+          "period": "2023-present"
+        }
+      ]
+    },
+    {
+      "category": "Professional Organizations",
+      "items": [
+        {
+          "title": "Cellular & Clinically Applied Rehabilitation Research and Engineering",
+          "description": "Graduate Student Board Member",
+          "period": "2022-present"
+        },
+        {
+          "title": "Brain Awareness Week, IBRO & DANA Foundation",
+          "description": "Organizer and representative",
+          "period": "2020"
+        }
+      ]
+    },
+    {
+      "category": "Teaching & Mentoring",
+      "items": [
+        {
+          "title": "Undergraduate Research Mentoring",
+          "description": "Supervised 12+ undergraduate students in research projects",
+          "period": "2018-present"
+        },
+        {
+          "title": "Graduate Student Mentor",
+          "description": "Peer mentor for incoming graduate students in the program",
+          "period": "2022-present"
+        }
+      ]
+    }
+  ],
+  "hobbies": [
+    {
+      "category": "Sports & Fitness",
+      "items": [
+        {
+          "title": "Weightlifting",
+          "description": "Regular gym enthusiast focusing on strength training and functional fitness"
+        },
+        {
+          "title": "Soccer",
+          "description": "I played high school and college soccer as a left midfielder"
+        },
+        {
+          "title": "Hiking",
+          "description": "Exploring U.S National Parks one at a time"
+        }
+      ]
+    },
+    {
+      "category": "Trading & Investing",
+      "items": [
+        {
+          "title": "Investing",
+          "description": "I research a wide range of instruments to maintain a balance portfolio"
+        },
+        {
+          "title": "Quantitative trading",
+          "description": "I analyze historical data to identify unique patterns that are rare, but not random"
+        }
+      ]
+    },
+    {
+      "category": "Technology & Learning",
+      "items": [
+        {
+          "title": "Programming Projects",
+          "description": "Built a portfolio analystics tool that performs risk assessments"
+        }
+      ]
+    }
+  ]
+}

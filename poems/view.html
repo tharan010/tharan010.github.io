@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Writing - Tharan Suresh</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="../index.html">Tharan Suresh</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../research.html" class="nav-link">Research</a></li>
+                <li><a href="../others.html" class="nav-link">Others</a></li>
+                <li><a href="../writing.html" class="nav-link">Writing</a></li>
+                <li><a href="#" class="nav-link" onclick="downloadCV()">Download CV</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="thought-pieces">
+            <article class="thought-article">
+                <h1 class="article-title" id="article-title">Loading...</h1>
+                <p class="article-meta">
+                    <span class="article-date" id="article-date"></span>
+                </p>
+
+                <div class="article-content" id="article-content">
+                    <p>Loading content...</p>
+                </div>
+
+                <div class="back-link" style="margin-top: 2rem;">
+                    <a href="../writing.html" style="color: var(--primary-color); text-decoration: none;">
+                        <i class="fas fa-arrow-left"></i> Back to Writing
+                    </a>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Tharan Suresh. All rights reserved.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        // Get the filename and date from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const filename = urlParams.get('file');
+        const date = urlParams.get('date');
+
+        if (!filename) {
+            document.getElementById('article-title').textContent = 'No file specified';
+            document.getElementById('article-content').innerHTML = '<p>Please select a piece to read.</p>';
+        } else {
+            // Remove .txt extension for display title
+            const title = filename.replace('.txt', '');
+            document.getElementById('article-title').textContent = title;
+            document.getElementById('page-title').textContent = title + ' - Tharan Suresh';
+
+            // Display the publication date if provided
+            if (date) {
+                document.getElementById('article-date').textContent = date;
+            }
+
+            // Fetch and display the text file
+            fetch(filename)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('File not found');
+                    }
+                    return response.text();
+                })
+                .then(text => {
+                    // Convert text to HTML paragraphs
+                    const paragraphs = text.split('\n\n').map(para => {
+                        para = para.trim();
+                        if (para) {
+                            // Preserve line breaks within paragraphs
+                            para = para.replace(/\n/g, '<br>');
+                            return '<p>' + para + '</p>';
+                        }
+                        return '';
+                    }).join('');
+
+                    document.getElementById('article-content').innerHTML = paragraphs;
+                })
+                .catch(error => {
+                    document.getElementById('article-content').innerHTML = '<p>Error loading content: ' + error.message + '</p>';
+                });
+        }
+    </script>
+</body>
+</html>
