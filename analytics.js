@@ -1,5 +1,4 @@
-// Google Analytics 4 (free). Get your Measurement ID at analytics.google.com
-// (Admin > Data streams > your web stream), then paste it below. It looks like "G-XXXXXXXXXX".
+
 const GA_ID = 'G-3PR2C4CTBX';
 
 if (GA_ID && !GA_ID.includes('XXXX')) {
