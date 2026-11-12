@@ -352,3 +352,69 @@ section h4 {
         column-count: 1;
     }
 }
+
+/* Gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.5rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    background: #f2f2f2;
+}
+
+.gallery-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.6rem 0.7rem;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-size: 0.85em;
+    line-height: 1.3;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.gallery-item:hover figcaption,
+.gallery-item:focus-within figcaption {
+    opacity: 1;
+}
+
+/* Touch screens have no hover: always show the caption */
+@media (hover: none) {
+    .gallery-item figcaption {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.35rem;
+    }
+
+    .gallery-item figcaption {
+        font-size: 0.75em;
+        padding: 0.4rem 0.5rem;
+    }
+}
